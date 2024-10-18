@@ -1,6 +1,79 @@
+
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     width: 50vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 91, 58);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    color: #a7f3d0;
+    text-align: center;
+    margin: auto;
+}
+
+.heading{
+    color: white;
+}
+
+.description{
+    margin-bottom: 2rem;
+    color: white;
     
+}
+
+#bill-amount{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding-right: 18rem;
+    padding-top: 1.9rem;
+    
+
+}
+
+#Cash-given{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding-right: 18rem;
+    padding-top: 1.9rem;
+
+}
+
+#check{
+    background-color: #a7f3d0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: rgb(5, 141, 64)  ;
+}
+
+.Change-Table{ 
+    border-collapse: collapse;
+    width: 125%;
+}
+
+.return{
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: #a7f3d0; 
+    padding-top: 1rem;
+}
+
+th,td{
+   border: 1px solid #060606;
+   text-align: left;
+   padding: 10px;
+   background-color: #a7f3d0;
+   color: rgb(5, 141, 64) ;
+}
+
+.no-of-notes{
+    background-color: white;
+    padding: 14px;
+}
+
+#errormessage{
+    color: white;
+    font-size: larger;
 }
