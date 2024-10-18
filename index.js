@@ -13,19 +13,23 @@ function clickHandler (){
      billAmount  = 1225
      caseGiven = 2000
     */
-
-    if(billAmount.value > 0){ // 1225 > 0 = true
-       if(cashGiven.value >= billAmount.value){ // 2000 >= 1225 = true
-       const amountToBeReturned = cashGiven.value - billAmount.value; // 2000 - 1225 = 775 
-       calculateChange(amountToBeReturned) // call a function  ex - calculateChange(775)
-       }else{
-        showMessage("Do you wanna wash plates?")
-       }
     
-    }else{
+    if(billAmount.value > 0){ // 1225 > 0 = true
+        if(cashGiven.value >= billAmount.value){ // 2000 >= 1225 = true
+         const amountToBeReturned = cashGiven.value - billAmount.value; // 2000 - 1225 = 775 
+         calculateChange(amountToBeReturned) // call a function  ex - calculateChange(775)
+         }else{
+          showMessage("Do you wanna wash plates?")
+         }
+    
+    } else if (billAmount.value < 0){
         showMessage("Invalid bill amount")
+
+    } else if(isNaN(billAmount.value)){
+        showMessage("bill amount shold be a number.")
+    
     }
-}
+    }
 
 function calculateChange(amountToBeReturned){ //775
     // go over all the available notes
