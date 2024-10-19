@@ -18,7 +18,7 @@ function clickHandler (){
         if(cashGiven.value >= billAmount.value){ // 2000 >= 1225 = true
          const amountToBeReturned = cashGiven.value - billAmount.value; // 2000 - 1225 = 775 
          calculateChange(amountToBeReturned) // call a function  ex - calculateChange(775)
-         }else{
+        } else {
           showMessage("Do you wanna wash plates?")
          }
     
