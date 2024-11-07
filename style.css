@@ -22,33 +22,30 @@
     color: white;
     font-size: large;
     text-align: center;
-    
 }
 
 #bill-amount{
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    
-    padding-right: 18rem;
+    width: 120%;
     padding-top: 1rem;
     padding-bottom: 0.8rem;
+    font-size: larger;
 }
-
 
 #Cash-given{
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    padding-right: 18rem;
+    width: 120%;
     padding-top: 1rem;
     padding-bottom: 0.8rem;
-    
-
+    font-size: larger;
 }
 
 #check{
     background-color: #a7f3d0;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    color: rgb(5, 141, 64)  ;
+    color: rgb(5, 141, 64);
 }
 
 .Change-Table{ 
